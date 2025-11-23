@@ -1,0 +1,9 @@
+{
+  "sequence_length": 150,
+  "n_features": 13,
+  "lstm_units": 128,
+  "dropout_rate": 0.4,
+  "dense_units": 64,
+  "learning_rate": 0.001,
+  "l2_regularization": 0.0001
+}
