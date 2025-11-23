@@ -1,0 +1,16 @@
+[project]
+name = "bi-lstm-classification"
+version = "0.1.0"
+description = "BI-LSTM Classification for Line vs Arc Trajectories"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "seaborn>=0.13.2",
+    "tensorflow>=2.13.0",
+    "scikit-learn>=1.3.0",
+    "scipy>=1.11.0",
+]

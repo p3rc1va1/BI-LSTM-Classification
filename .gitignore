@@ -1,0 +1,38 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data files - ONLY keep combined_data.csv
+data/*
+!data/combined_data.csv  # KEEP: Source data for training
+
+# Documentation (optional, can regenerate)
+plan.md                # Project planning (optional)
+
+# Model files (large, can be retrained)
+models/*.keras         # Trained models
+models/*.h5            # Old format models
+models/training_history_*.json  # Training logs
+models/test_results_*.json      # Test results
+# Keep: models/preprocessor.pkl and models/model_config.json
+
+# TensorBoard logs
+src/classification/logs/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
